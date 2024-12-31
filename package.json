@@ -1,0 +1,29 @@
+{
+  "name": "automation-playground-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novotny-adam/automation-playground-solution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/novotny-adam/automation-playground-solution/issues"
+  },
+  "homepage": "https://github.com/novotny-adam/automation-playground-solution#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "playwright": "^1.8.0",
+    "typescript": "^4.9.5"
+  }
+}
